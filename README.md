@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dmac420
 - 👀 I’m interested in HTML, CSS, JavaScript, and PowerShell
-- 🌱 I’m currently learning HTML & CSS, then I will learn JavaScript. I am learning them all on W3Schools.
+- 🌱 I’m currently learning HTML & CSS, then I will learn JavaScript. I am learning them all on W3Schools & FreeCodeCamp.
 
 
 <!---
