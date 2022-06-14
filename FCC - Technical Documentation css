@@ -2,7 +2,7 @@
 
 html {
   box-sizing: border-box;
-  line-height: 1.5;
+  line-height: 1.2;
 
 }
 
@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Catamaran', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   background: #000;
   color: #fff;
 }
@@ -48,11 +48,10 @@ width: 100%;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-
 }
 
 .nav-ul {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -76,7 +75,7 @@ main li {
 code {
   display: block;
   background: #E5E8E8;;
-  color: red;
+  color: #EC7063;
   padding: 10px;
   text-align: left;
   border-radius: 2px;
@@ -84,10 +83,31 @@ code {
 
 
 
-/* Basic media query */
+/* media query */
 
 @media (max-width: 766px) {
   body {
 background: #000;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+#main-doc {
+  position: relative;
+  margin-left: 0;
+  margin-top: 320px;
+}
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
   }
 }
