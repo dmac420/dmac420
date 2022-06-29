@@ -1,0 +1,113 @@
+/* */
+
+html {
+  box-sizing: border-box;
+  line-height: 1.2;
+
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+}
+
+
+/* Navbar */
+
+#navbar {
+  position: fixed; /* This keeps the navbar in the same position */
+  width: 300px;
+  height: 100%; /* This makes it the height of the page */
+  top: 0;
+  left: 0;
+  border-right: 2px solid #fff; /* This gives a border at the right to separate the nav & main content */
+}
+
+.main-header {
+font-size: 36px;
+text-align: center;
+margin: 10px 0;
+border-bottom: 2px solid;
+}
+
+.nav-ul > li {
+list-style-type: none;
+border-bottom: 2px solid;
+width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 5px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-ul {
+  font-size: 20px;
+}
+
+
+
+/* Main document */
+
+#main-doc {
+  position: absolute; /* Using this allows me to position the main content beside the nav */
+  margin-left: 300px; /* This allows me to position the content from the left of the doc */
+  padding: 20px;
+}
+
+header {
+  font-size: 28px;
+}
+
+main li {
+  margin-left: -15px;
+}
+
+code {
+  display: block;
+  background: #E5E8E8;;
+  color: #EC7063;
+  padding: 10px;
+  text-align: left;
+  border-radius: 2px;
+}
+
+
+
+/* media query */
+
+@media (max-width: 766px) {
+  body {
+background: #000;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+#main-doc {
+  position: relative;
+  margin-left: 0;
+  margin-top: 320px;
+}
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+  }
+}
