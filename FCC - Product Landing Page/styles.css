@@ -143,11 +143,47 @@ h4 {
     padding: 0.25rem;
 }
 
+input.button {
+     width: 15%;
+     padding: 0.75rem;
+     width: 35%;
+     font-weight: normal;
+     margin-top: 1rem;
+}
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #D5DBDB;
+    margin: 0 20rem;
+}
+
+.footer-ul {
+    margin-top: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-left: 5rem;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+}
 
 /* CURSOR - POINTER */
 
 #video, img, input[type="submit"] {
     cursor: pointer;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1199px) {
+    #pricing {
+        grid-template-columns: 1fr;
+    }
+}
+ 
 
