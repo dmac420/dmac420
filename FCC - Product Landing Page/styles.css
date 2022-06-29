@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+
+/* STYLING THE HEADER */
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+    background-color: #eee;
+    height: 0.75rem;
+}
+
+img {
+    width: 18rem;
+}
+
+.list, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 0 3rem;
+}
+
+/* Nav links & Footer links */
+
+.navb li, .footer-ul li {
+    display: inline;
+}
+
+/* STYLING THE FORM */
+
+.form-wrapper {
+    text-align: center;
+    padding: 0.5rem 0 5rem 0;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+input {
+    margin-top: 0.7rem;
+    margin-bottom: 0.15rem; 
+    
+}
+
+input[type="email"] {
+    width: 16%;
+    padding: 0.35rem;
+}
+
+input[type="submit"] {
+    width: 8%;
+    border: none;
+    display: block;
+    margin: 0.7rem auto;
+    background-color: #F1C40F;
+    padding: 0.3rem;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 1rem;
+}
+
+::placeholder {
+    padding: 0.2rem;
+}
+
+/* CONTAINER-NAV-LINKS */
+
+.features, .how-it-works, footer, .pricing-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.features p {
+    margin-bottom: 3rem;
+
+}
+
+/* HOW IT WORKS - YOUTUBE VIDEO */
+
+.how-it-works {
+    padding: 4.5rem;
+}
+
+
+/* GRID-PRICING - TROMBONE CONTENT  */
+
+#pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+    
+}
+
+.trombone {
+    border: 0.05rem solid #000;
+    width: 17rem;
+    height: 18rem;
+}
+
+h4 {
+    background-color: #D5DBDB;
+    padding-bottom: 1rem; 
+    text-align: center;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.pricing-dollars {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 1rem 0;
+}
+
+.trombone-list li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+
+
+/* CURSOR - POINTER */
+
+#video, img, input[type="submit"] {
+    cursor: pointer;
+}
+
